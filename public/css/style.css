@@ -1,0 +1,94 @@
+body{
+    font-family: 'Cormorant SC', serif;
+}
+#header{
+    background: linear-gradient(to right, rgb(8,51,178), rgb(6,37,129));
+    padding: 10px 0px;
+}
+#header img{
+    width: 100px;
+    box-shadow: 5px 5px ;
+}
+#header ul li a{
+    color: rgb(199,212,208);
+    transition-property: color;
+    transition-duration: 2s;
+}
+#header ul li a:hover{
+    color: white;
+}
+#header .bi{
+    color:white;
+}
+#header .navbar-toggler{
+    border: 1px solid white;
+}
+#header .navbar-toggler:focus{
+    box-shadow: none;
+}
+#header .navbar-brand{
+    margin: 0px;
+    padding: 0px;
+
+}
+#banner h4{
+    color: white;
+}
+#banner p{
+    color:white
+}
+#banner{
+    background: linear-gradient(to right, rgb(8,51,178), rgb(6,37,129));
+}
+#banner #img1{
+    width: 130px;
+    border-radius: 50%;
+}
+#banner #banner-border{
+    width: 100%;
+}
+#testi{
+    padding: 20px 0px;
+}
+#testi img{
+    border-radius: 50%;
+    margin-bottom: 13px;
+}
+#testi h2{
+    font-weight: light;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+
+#footer{
+    background: linear-gradient(to right, rgb(8,51,178), rgb(6,37,129));
+
+}
+#footer #footer-border{
+    width: 100%;
+}
+#footer img{
+    width: 50px;
+    padding-bottom: 15px;
+}
+#footer h2{
+    color:white;
+    font-size: 20px;
+}
+#footer .bi{
+    color:white;
+    font-size: 20px;
+}
+#footer span{
+    color: rgb(199,212,208);
+    font-size: 15px;
+}
+#footer #footer-logo{
+    width: 120px;
+}
+#footer p{
+    color: white;
+}
+
+

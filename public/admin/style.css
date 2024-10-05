@@ -1,0 +1,30 @@
+#adheader{
+    background-color: blue;
+    color: white;
+    padding: 07px;
+}
+#adheader a{
+    color: white;
+    text-decoration: none;
+}
+#adheader button{
+    float: right;
+    margin: 3px 0px;
+}
+#adheader button a{
+    color: white;
+    text-decoration: none;
+}
+
+#adfooter{
+    position: absolute;
+    bottom: 05px;
+}
+#adcontent {
+    color: black;
+}
+#adcontent button a{
+    text-decoration: none;
+    color: white;
+}
+

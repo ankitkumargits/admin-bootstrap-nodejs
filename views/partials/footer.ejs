@@ -1,0 +1,39 @@
+<section id="footer">
+    <img src="/media/border2.png" alt="" id="footer-border">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/media/logo.png" alt="" id="footer-logo">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi non autem placeat quis optio ad ipsa dolorum nesciunt accusamus perspiciatis.</p>
+            </div>
+            <div class="col-md-4">
+                <h2><%=addressDetails.cname%></h2>
+                <p><i class="bi bi-geo-alt"></i><span><%=addressDetails.address%></span></p>
+                <p><i class="bi bi-phone"></i><span><%=addressDetails.phone%></span> </p>
+                <p><i class="bi bi-telephone"></i><span><%=addressDetails.telephone%></span> </p>
+            </div>
+            <div class="col-md-4">
+                <h2>Query Form</h2>
+                <form action="/submitcontact" method="post">
+                    <input type="email" name="email" id="" class="form-control" placeholder="Enter Email">
+                    <textarea name="query" id="" class="form-control mt-2 mb-2" placeholder="Enter Query"></textarea>
+                    <button type="submit" class="btn btn-success form-control">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <img src="media/linkedin-icon.png" alt="">
+                <img src="media/instagram-icon.png" alt="">
+                <img src="media/snapchat-icon.png" alt="">
+                <img src="media/twitter-icon.png" alt="">
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
